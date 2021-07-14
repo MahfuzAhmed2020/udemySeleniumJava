@@ -2,102 +2,25 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-25T04:24:53Z" name="Default suite" finished-at="2020-10-25T04:24:57Z" duration-ms="3735">
+  <suite started-at="2021-01-27T01:22:25Z" name="Default suite" finished-at="2021-01-27T01:22:25Z" duration-ms="102">
     <groups>
     </groups>
-    <test started-at="2020-10-25T04:24:53Z" name="Default test" finished-at="2020-10-25T04:24:57Z" duration-ms="3735">
+    <test started-at="2021-01-27T01:22:25Z" name="Default test" finished-at="2021-01-27T01:22:25Z" duration-ms="102">
       <class name="com.udmy.iframe.Iframe$Browser">
-        <test-method signature="openBrowser()[pri:0, instance:com.udmy.iframe.Iframe$Browser@105fece7]" started-at="2020-10-25T04:24:54Z" name="openBrowser" finished-at="2020-10-25T04:24:57Z" duration-ms="3626" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
+        <test-method signature="openBrowser()[pri:0, instance:com.udmy.iframe.Iframe$Browser@105fece7]" started-at="2021-01-27T01:22:25Z" name="openBrowser" finished-at="2021-01-27T01:22:25Z" duration-ms="70" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
             <message>
-              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 84
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'LAPTOP-901NLNPE', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x003987E3+2852835]
-Ordinal0 [0x00285BB1+1727409]
-Ordinal0 [0x0015E4B9+517305]
-Ordinal0 [0x000F0BA0+68512]
-Ordinal0 [0x000ED3A0+54176]
-Ordinal0 [0x0010D9F7+186871]
-Ordinal0 [0x0010D7FD+186365]
-Ordinal0 [0x0010B70B+177931]
-Ordinal0 [0x000F2584+75140]
-Ordinal0 [0x000F3650+79440]
-Ordinal0 [0x000F35E9+79337]
-Ordinal0 [0x0029AD5C+1813852]
-GetHandleVerifier [0x004BC616+1075574]
-GetHandleVerifier [0x004BC367+1074887]
-GetHandleVerifier [0x004C7497+1120247]
-GetHandleVerifier [0x004BCC16+1077110]
-Ordinal0 [0x00293206+1782278]
-Ordinal0 [0x0029C3BB+1819579]
-Ordinal0 [0x0029C523+1819939]
-Ordinal0 [0x002B2B45+1911621]
-BaseThreadInitThunk [0x75EAFA29+25]
-RtlGetAppContainerNamedObjectPath [0x77E875F4+228]
-RtlGetAppContainerNamedObjectPath [0x77E875C4+180]
-(No symbol) [0x00000000]
-]]>
+              <![CDATA[The driver executable does not exist: C:\Users\mahfu\Desktop\OSA0130202007B\UdeMy\DriversNew\chromedriver.exe]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 84
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'LAPTOP-901NLNPE', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x003987E3+2852835]
-Ordinal0 [0x00285BB1+1727409]
-Ordinal0 [0x0015E4B9+517305]
-Ordinal0 [0x000F0BA0+68512]
-Ordinal0 [0x000ED3A0+54176]
-Ordinal0 [0x0010D9F7+186871]
-Ordinal0 [0x0010D7FD+186365]
-Ordinal0 [0x0010B70B+177931]
-Ordinal0 [0x000F2584+75140]
-Ordinal0 [0x000F3650+79440]
-Ordinal0 [0x000F35E9+79337]
-Ordinal0 [0x0029AD5C+1813852]
-GetHandleVerifier [0x004BC616+1075574]
-GetHandleVerifier [0x004BC367+1074887]
-GetHandleVerifier [0x004C7497+1120247]
-GetHandleVerifier [0x004BCC16+1077110]
-Ordinal0 [0x00293206+1782278]
-Ordinal0 [0x0029C3BB+1819579]
-Ordinal0 [0x0029C523+1819939]
-Ordinal0 [0x002B2B45+1911621]
-BaseThreadInitThunk [0x75EAFA29+25]
-RtlGetAppContainerNamedObjectPath [0x77E875F4+228]
-RtlGetAppContainerNamedObjectPath [0x77E875C4+180]
-(No symbol) [0x00000000]
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\mahfu\Desktop\OSA0130202007B\UdeMy\DriversNew\chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
 at com.udmy.iframe.Iframe$Browser.openBrowser(Iframe.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -127,11 +50,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="closeB()[pri:0, instance:com.udmy.iframe.Iframe$Browser@105fece7]" started-at="2020-10-25T04:24:57Z" name="closeB" finished-at="2020-10-25T04:24:57Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeB()[pri:0, instance:com.udmy.iframe.Iframe$Browser@105fece7]" started-at="2021-01-27T01:22:25Z" name="closeB" finished-at="2021-01-27T01:22:25Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeB -->
